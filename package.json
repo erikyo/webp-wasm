@@ -1,0 +1,7 @@
+{
+  "name": "wasm",
+  "version": "1.0.0",
+  "scripts": {
+    "compile-win": "docker run --rm -v \"%cd%\":/src emscripten/emsdk ./build.sh"
+  }
+}
